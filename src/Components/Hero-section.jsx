@@ -27,11 +27,11 @@ function Hero() {
         </div>
 
         {/* dashboard */}
-        <div className="">
+        <div className="flex justify-center">
           <img
             src="images/Dashboard.png"
             alt="dashboard"
-            className="h-[614px] w-full"
+            className="h-[614px] 2xl:h-[800px] 2xl:-m-10 w-full 2xl:w-[60%]"
           />
         </div>
       </div>

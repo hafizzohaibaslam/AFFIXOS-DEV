@@ -5,10 +5,10 @@ function Contact() {
         <div className="rounded-[22.5px] p-[20px] sm:p-[40px] md:p-[67.5px] w-full md:h-max-[586px] bg-[#1D2C97]">
           {/* heading */}
           <div className="text-white mb-[67px]">
-            <h2 className="mb-[11px] font-[600] text-[32px] md:text-[48px] leading-[50px]">
+            <h2 className="mb-[11px] font-[600] text-[32px] md:text-[48px] leading-[50px] 2xl:text-[34px]">
               Lets get in touch!
             </h2>
-            <p className="leading-[28.8px] text-[16px] font-[400] h-[87px] md:w-[431px]">
+            <p className="leading-[28.8px] text-[16px] font-[400] h-[87px] md:w-[431px] 2xl:text-[20px] 2xl:leading-[30px]">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi
               molestias vel magni, ipsam magnam laboriosam ipsam magnam
               laboriosam.

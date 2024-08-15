@@ -4,7 +4,7 @@ function Header() {
   return (
     <>
       <div
-        className="bg-no-repeat w-full xl1440:bg-contain"
+        className="bg-no-repeat w-full 2xl:bg-cover md:bg-[contain] 2xl:h-[800px]"
         style={{ backgroundImage: "url('/images/Background.png')" }}
       >
         <NavBar></NavBar>

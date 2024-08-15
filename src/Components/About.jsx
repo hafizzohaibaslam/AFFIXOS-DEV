@@ -6,7 +6,7 @@ function About() {
           <h1 className="text-[#14358A] font-[600] text-[36px] md:text-[48px] leading-[50px] text-center">
             About Our App
           </h1>
-          <p className="text-center lg:ml-[268px] lg:mr-[268px] max-w-[93%] mx-auto leading-[22.4px] text-[#68718B] font-[400] text-[16px]">
+          <p className="text-center lg:ml-[268px] lg:mr-[268px] max-w-[93%] mx-auto leading-[22.4px] text-[#68718B] font-[400] text-[16px] 2xl:text-[33px] 2xl:leading-[50px]">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
             vitae voluptatem commodi dolorem a ducimus. Officia provident
             tempore perspiciatis cumque ullam obcaecati atque praesentium
@@ -17,7 +17,11 @@ function About() {
         {/* flex div */}
         <div className="grid lg:grid-cols-2 grid-cols-1 mt-[77px]">
           <div className="">
-            <img className='lg:w-auto w-full' src="images/chart-2.png" alt="" />
+            <img
+              className="lg:w-auto w-full 2xl:w-[70%]"
+              src="images/chart-2.png"
+              alt=""
+            />
           </div>
           <div className="flex flex-col gap-[20px] h-max-[529px] mt-[40px] xl::w-[35rem] w-auto ">
             <div className="flex gap-[10px] pt-[28px] max-w-full pl-8 pr-8 pb-[28px]  bg-white rounded-[14px] shadow-md shadow-gray-300">
@@ -25,10 +29,10 @@ function About() {
                 <img src="images/circle-fill.png" alt="" className="" />
               </div>
               <div className="flex flex-col gap-[15px]">
-                <h2 className="text-[#14358A] text-[24px] leading-[25px] font-[600]">
+                <h2 className="text-[#14358A] text-[24px] leading-[25px] font-[600] 2xl:text-[33px]">
                   Creative Design
                 </h2>
-                <p className="text-[#68718B] text-[14px] font-[400] leading-[22px]">
+                <p className="text-[#68718B] text-[14px] font-[400] leading-[22px] 2xl:text-[24px] 2xl:leading-[33px]">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Provident voluptates doloremque rerum quisquam rem consectetur
                   ipsum totam, eaque maxime distinctio beatae
@@ -41,10 +45,10 @@ function About() {
                 <img src="images/circle-fill.png" alt="" className="" />
               </div>
               <div className="flex flex-col gap-[15px]">
-                <h2 className="text-[#14358A] text-[24px] leading-[25px] font-[600]">
+                <h2 className="text-[#14358A] text-[24px] leading-[25px] font-[600] 2xl:text-[33px]">
                   easy to use
                 </h2>
-                <p className="text-[#68718B] text-[14px] font-[400] leading-[22px]">
+                <p className="text-[#68718B] text-[14px] font-[400] leading-[22px] 2xl:text-[24px] 2xl:leading-[33px]">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Provident voluptates doloremque rerum quisquam rem consectetur
                   ipsum totam, eaque maxime distinctio beatae
@@ -57,10 +61,10 @@ function About() {
                 <img src="images/circle-fill.png" alt="" className="" />
               </div>
               <div className="flex flex-col gap-[15px]">
-                <h2 className="text-[#14358A] text-[24px] leading-[25px] font-[600]">
+                <h2 className="text-[#14358A] text-[24px] leading-[25px] font-[600] 2xl:text-[33px]">
                   Best user experience
                 </h2>
-                <p className="text-[#68718B] text-[14px] font-[400] leading-[22px]">
+                <p className="text-[#68718B] text-[14px] font-[400] leading-[22px] 2xl:text-[24px] 2xl:leading-[33px]">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Provident voluptates doloremque rerum quisquam rem consectetur
                   ipsum totam, eaque maxime distinctio beatae
