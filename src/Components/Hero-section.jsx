@@ -14,7 +14,6 @@ function Hero() {
             Most Cost-Efficient Real-Time Location Solution
           </p>
 
-          {/* buttons */}
           <div className="mt-[48px] md:flex-row flex-col justify-center items-center flex gap-[16px] w-full">
             <button className="rounded-[10px] w-[178px] h-[64px] pt-[20px] pr-[40px] pb-[20px] pl-[40px] bg-gradient-to-r from-[#06268D] to-[#30D3AC] font-medium">
               Contact Us
