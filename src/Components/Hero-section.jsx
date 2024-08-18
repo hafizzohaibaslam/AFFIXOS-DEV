@@ -5,7 +5,7 @@ function Hero() {
         {/* intro */}
         <div className="mt-[80px] flex justify-center items-center flex-col md:ml-[100px] md:mr-[100px] ">
           <h1 className="md:text-[50px] text-[40px] md:font-[600] lg:w-[70%] md:w-[90%] w-full  font-[400] text-center leading-[50px] md:leading-[66px]">
-            AFFIXOS Real Time Location Tracking System
+            AFFIXOS Real Time Assets Tracking System
           </h1>
           <p className="mt-[24px]  text-center font-[400] lg:w-[55%] md:w-[70%] w-full text-[18px] leading-[24.3px]">
             mprove Productivity and Efficiency by Tracking and Managing Movable
