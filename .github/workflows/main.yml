@@ -3,21 +3,21 @@ name: Upload Website
 on:
   push:
     branches:
-    - master  # or 'main' if that is your branch name
+      - main # Make sure this matches your branch name
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3  # Use the latest stable version
-    - name: Build project
-      run: npm run build  # Assuming npm is used; adjust if necessary
-    - uses: jakejarvis/s3-sync-action@master
-      with:
-        args: --acl public-read --follow-symlinks --delete
-      env:
-        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
-        AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        AWS_REGION: 'us-west-1'  # Update to your correct region
-        SOURCE_DIR: 'dist'  # Default output directory for Vite
+      - uses: actions/checkout@v3 # Use the latest stable version
+      - name: Build project
+        run: npm run build # Adjust to match your build command
+      - uses: jakejarvis/s3-sync-action@master
+        with:
+          args: --acl public-read --follow-symlinks --delete
+        env:
+          AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: "us-west-1" # Update to your correct region
+          SOURCE_DIR: "dist" # Default output directory for Vite
